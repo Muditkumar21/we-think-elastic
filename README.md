@@ -40,6 +40,9 @@ Open your browser and visit http://localhost:3000.
 
 📸 Screenshots
 
+![Screenshot 2025-03-16 114703](https://github.com/user-attachments/assets/c5af4eae-b939-4456-8a0c-008e1411981b)
+![Screenshot 2025-03-16 114638](https://github.com/user-attachments/assets/2497e55d-ee27-40de-96f0-b7569c8318d9)
+![Screenshot 2025-03-16 114611](https://github.com/user-attachments/assets/d35bedda-275c-49eb-a5c5-7c12f04e09d5)
 
 
 🎨 Inspirations
