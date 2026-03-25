@@ -361,17 +361,35 @@ function hovervideo() {
 }
 
 function page7_pin_anime() {
-  gsap.to("#page7 h1", {
-    transform: "translateX(-165%)",
-    scrollTrigger: {
-      trigger: "#page7",
-      scroller: "#main",
-      start:"top 0%",
-      end:"top -100%",
-      scrub: 2,
-      pin: true,
-    }
-  })
+  let mm = gsap.matchMedia();
+
+  mm.add("(min-width: 769px)", () => {
+    gsap.to("#page7 h1", {
+      transform: "translateX(-165%)",
+      scrollTrigger: {
+        trigger: "#page7",
+        scroller: "#main",
+        start:"top 0%",
+        end:"top -100%",
+        scrub: 2,
+        pin: true,
+      }
+    });
+  });
+
+  mm.add("(max-width: 768px)", () => {
+    gsap.to("#page7 h1", {
+      transform: "translateX(-200%)",
+      scrollTrigger: {
+        trigger: "#page7",
+        scroller: "#main",
+        start:"top 0%",
+        end:"top -150%",
+        scrub: 2,
+        pin: true,
+      }
+    });
+  });
 }
 
 master.add(tl) // runs first
